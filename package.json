@@ -33,7 +33,7 @@
     "lint:md": "eslint . --ext .md",
     "lint:markdown": "markdownlint --config ./.markdownlintrc **/*.md *.md ./content/**/*.md",
     "lint:social": "alex ./**/*.md",
-    "lint:prose": "ncp .proselintrc ~/ && proselint",
+    "lint:prose": "ncp .proselintrc ~/ && proselint content",
     "test": "npm run lint ",
     "sitemap": "cd build && sitemap-static --prefix=https://webpack.js.org/ > sitemap.xml"
   },

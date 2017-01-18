@@ -80,7 +80,7 @@ module: {
         {
             test: /[\/\\]node_modules[\/\\]some-module[\/\\]file\.js$/,
             loader: "exports-loader?file,parse=helpers.parse"
-            // adds below code the the file's source:
+            // adds below code the file's source:
             //  exports["file"] = file;
             //  exports["parse"] = helpers.parse;
         }

@@ -6,7 +6,7 @@ contributors:
   - jhnns
 ---
 
-**Plugins** are the [backbone](https://github.com/webpack/tapable) of webpack. webpack itself is built on the **same plugin system** that you use in your webpack configuration!!
+**Plugins** are the [backbone](https://github.com/webpack/tapable) of webpack. webpack itself is built on the **same plugin system** that you use in your webpack configuration.
 
 They also serve the purpose of doing **anything else** that a [loader](/concepts/loaders) cannot do.
 
@@ -24,7 +24,7 @@ function ConsoleLogOnBuildWebpackPlugin() {
 
 ConsoleLogOnBuildWebpackPlugin.prototype.apply = function(compiler) {
   compiler.plugin('run', function(compiler, callback) {
-    console.log("The webpack build process is starting!!!");
+    console.log("The webpack build process is starting!");
 
     callback();
   });

@@ -82,7 +82,7 @@ module.exports = env => {
 
       'webpack/hot/only-dev-server',
       //bundle the client for hot reloading
-      //only- means to only hot reload for successful updates
+      //only-dev-server means to only hot reload for successful updates
 
 
       './index.js'

@@ -19,7 +19,7 @@ amd: {
 }
 ```
 
-?> I don't think this is very clear, at least not without a link pointing to what this might be used for.
+?> I don't think this is clear, at least not without a link pointing to what this might be used for.
 
 ## `bail`
 
